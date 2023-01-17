@@ -1,0 +1,65 @@
+.banner{
+    background-image: url('../../../assets/img/banner11.png');
+    height:680px;
+    background-position: center ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+
+}
+.wholediv{
+    background-color: aliceblue;
+}
+
+
+.banner h1{
+    color:#3D4A4F;
+}
+
+.surfing{
+    top: 40%;
+    left: 14%;
+    position:absolute;
+    color: black;
+}
+.adventures{
+    color:#3D4A4F;
+    top: 40%;
+    right:11%;
+    position: absolute;
+    
+}
+
+.sections{
+    background-color: #FFF6DF;
+}
+
+.sectionbox{
+    padding: 10px 5px;
+
+}
+
+.sectionbox img {
+    width: 100%;
+    height: 260px;
+
+    object-fit: cover;
+
+}
+
+.sectionbox p{
+    width: 100%;
+    padding-left: 18px;
+    font-family: Archivo Narrow;  
+    font-size: larger; 
+    text-align: center;
+}
+
+.sectionbox h1{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 18px;
+    font-size:x-large;  
+    font-weight: bold;
+    text-align: center;
+}
