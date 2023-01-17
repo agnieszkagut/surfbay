@@ -1,14 +1,13 @@
 .banner{
-    background-image: url('../../../assets/img/banner11.png');
-    height:680px;
+    background-image: url('../../../assets/img/banner.png');
+    height:1000px;
     background-position: center ;
-    background-size: auto;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-color: aliceblue;
 
 }
 .wholediv{
-    background-color: aliceblue;
+
 }
 
 
