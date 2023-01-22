@@ -1,20 +1,50 @@
-<div class="">
-  <div class="banner"> 
 
-</div>
-<div class="sections">
+<app-header></app-header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 mt-3"></div>
+            <div class="col-lg-1 mt-3"></div>
+            <div class="col-lg-6 mt-3">
+                <p class="description">
+                    We call it the Surf Mecca, Taghazout’s coastline and it’s area with a wide range of enriched surf spots, golden beaches, and endless waves. 
+                    <br>Surf Bay Morocco offers you a cool place you can call home, tasty and enriched local meals to provide you with enough energy to ride the waves 
+                    and tailored lessons so you will be able to face the ocean. Now is the time to take a step to the beach, learn the instructions and start surfing on the waves.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
     <div class="container mt-4 mb-4">
         <div class="row">
             <div class="col-lg-3 mt-3" *ngFor="let sd of sectionData">
                 <div class="sectionbox">
                     <img src="{{sd.sectionImg}}"/>
-                    <h1>{{sd.sectionName}}</h1>
+                    <div class=""><h1>{{sd.sectionName}}</h1></div>
                     <p>{{sd.sectionDesc}}</p>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-  
-</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 mt-1"></div>
+            <div class="col-lg-1 mt-1"></div>
+            <div class="col-lg-6 mt-1">
+                <p class="description">
+                     We are located in the south of MOROCCO, 14 km from AGADIR, in TAMRAGHT village, just next to the beautiful TAGHAZOUT. Some of the southern surf spots are 
+                    just minutes away from your doorstep,  such as Devil’s rock, CroCro beach, and Banana point.<br><br>
+                    In addition to surfing, we also offer a variety of activities to make your stay as enjoyable as possible. You will be able to participate in YOGA classes, day trip to paradise valley, visiting the big traditional market (Souk Alhed), and sandboarding in the sand dunes, 
+                    we will even have an escape to the middle of the ocean with SUPs, rolling with bicycles by the beachside. As well as immerse yourself in the local scene and through the local streets, shop at outdoor markets, 
+                    and taste the traditional cuisine.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+

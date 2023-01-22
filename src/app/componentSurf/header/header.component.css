@@ -18,12 +18,46 @@
   } */
 
 .wholediv{
-padding: 0% 0% 8%;
+
+}
+
+.logo{
+  background-image: url('../../../assets/img/logo3.png');
+  height:220px;
+  background-position: center ;
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}
+
+.banner{
+  background-image: linear-gradient(90deg, rgba(58,99,180,0.6755077030812324) 0%, rgba(253,160,29,0.5270483193277311) 61%, rgba(69,232,252,0.6811099439775911) 100%), url('../../../assets/img/couches.jpg');
+  height:1000px;
+  background-position: center ;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+
+}
+
+.surfing{
+  top: 40%;
+  left: 14%;
+  position:absolute;
+  color: #5cc8fa;
+  font-size: 70px;
+}
+.adventures{
+  top: 40%;
+  right:11%;
+  position: absolute;
+  color: #f3af73;
+  font-size: 50px
 }
 
 .barfont{
   font-family: Archivo Narrow;
-  font-size:larger;
+  font-size:21px;
   font-weight: bold;
 }
 
@@ -38,13 +72,13 @@ color:var(--secondary-color);
   }
 
   a{
-    color: #3D4A4F;
-    text-decoration: none;
-      font-size: larger;
+    color: #242527;
+    text-decoration: none
+
   }
 
   a:hover{
-    color: var(--secondary-color);
+    color: #5cc8fa
   }
 
   .logo {

@@ -1,36 +1,15 @@
-.banner{
-    background-image: url('../../../assets/img/banner.png');
-    height:1000px;
-    background-position: center ;
-    background-size:cover;
-    background-repeat: no-repeat;
 
-}
 .wholediv{
 
 }
 
 
 .banner h1{
-    color:#3D4A4F;
-}
 
-.surfing{
-    top: 40%;
-    left: 14%;
-    position:absolute;
-    color: black;
-}
-.adventures{
-    color:#3D4A4F;
-    top: 40%;
-    right:11%;
-    position: absolute;
-    
 }
 
 .sections{
-    background-color: #FFF6DF;
+    background-color:white
 }
 
 .sectionbox{
@@ -60,5 +39,16 @@
     padding-left: 18px;
     font-size:x-large;  
     font-weight: bold;
-    text-align: center;
+    text-align: center
 }
+.bg{
+    background-color: #f7e19a;
+}
+
+.description{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-family: Archivo Narrow;
+    font-size:23px
+
+  }

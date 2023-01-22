@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { HeaderComponent } from 'src/app/componentSurf/header/header.component';
 import { SectionsService } from 'src/app/services/sections.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { SectionsService } from 'src/app/services/sections.service';
   standalone: true,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  imports: [NgFor]
+  imports: [NgFor, HeaderComponent]
 })
 export class HomeComponent implements OnInit{
 
