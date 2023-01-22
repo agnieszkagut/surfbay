@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { RouterModule } from '@angular/router';
+
 import { RegularHeaderComponent } from 'src/app/componentSurf/regularHeader/regular-header/regular-header.component';
 import { SectionsService } from 'src/app/services/sections.service';
 
@@ -9,7 +9,7 @@ import { SectionsService } from 'src/app/services/sections.service';
   standalone: true,
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
-  imports: [RegularHeaderComponent, RouterModule, NgFor]
+  imports: [RegularHeaderComponent, NgFor]
 })
 export class AboutComponent implements OnInit {
   

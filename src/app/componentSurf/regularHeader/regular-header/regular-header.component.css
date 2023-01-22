@@ -5,7 +5,7 @@
 
 .logo{
 /*dla loga Surfbay*/
-  background-image: url('logo3.png');
+  background-image: url('../../../../assets/img/logo3.png');
   height:150px;
   background-position: center ;
   background-size:contain;
@@ -14,13 +14,11 @@
 }
 
 .banner{
-  background-image: linear-gradient(90deg, rgba(58,99,180,0.6755077030812324) 0%, rgba(253,160,29,0.5270483193277311) 61%, rgba(69,232,252,0.6811099439775911) 100%), url('head2.jpg');
+  background-image: linear-gradient(90deg, rgba(58,99,180,0.6755077030812324) 0%, rgba(253,160,29,0.5270483193277311) 61%, rgba(69,232,252,0.6811099439775911) 100%), url('../../../../assets/img/head.jpg');
   height:350px;
   background-position: center ;
   background-size:cover;
   background-repeat: no-repeat;
-
-
 }
 
 .barfont{

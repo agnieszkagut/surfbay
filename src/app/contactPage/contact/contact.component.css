@@ -9,7 +9,6 @@
 .sectionbox p{
 
     width: 100%;
-    padding-left: 18px;
     font-family: Archivo Narrow;  
     font-size: 23px; 
     text-align: center;
@@ -20,7 +19,6 @@
     font-family: 'Finger Paint';
     padding-top: 40px;
     width: 100%;
-    padding-left: 18px;
     font-size: 30px; 
     text-align: center;
     font-weight: bold;
