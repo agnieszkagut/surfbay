@@ -1,0 +1,50 @@
+.sectionbox p{
+
+    width: 100%;
+    font-family: Archivo Narrow;  
+    font-size: 22px; 
+    text-align: center;
+    
+}
+
+.packages{
+    font-family: 'Finger Paint';
+    padding-top: 5px;
+    width: 100%;
+    font-size: 20px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.description{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-family: Archivo Narrow;
+    font-size:25px
+
+  }
+  .descriptionsec{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    font-family: Archivo Narrow;
+    font-size:23px
+  }
+
+  
+  .bg{
+    background-color: #95eaf0;
+
+}
+
+.bgyogi{
+    background-color: #f7e19a;
+}
+
+.sections{
+    font-family: 'Finger Paint';
+    padding-top: 5px;
+    width: 100%;
+    font-size: 21px; 
+    text-align: center;
+    font-weight: bold;
+}
