@@ -2,7 +2,7 @@
 
     width: 100%;
     font-family: Archivo Narrow;  
-    font-size: 22px; 
+    font-size: 20px; 
     text-align: center;
     
 }
@@ -10,8 +10,9 @@
 .packages{
     font-family: 'Finger Paint';
     padding-top: 5px;
+    padding-bottom: 10px;
     width: 100%;
-    font-size: 20px; 
+    font-size: 21px; 
     text-align: center;
     font-weight: bold;
 }
@@ -20,14 +21,14 @@
     text-align: center;
     padding: 0px 0px 0px 0px;
     font-family: Archivo Narrow;
-    font-size:25px
+    font-size:22px
 
   }
   .descriptionsec{
     text-align: center;
     padding: 0px 0px 0px 0px;
     font-family: Archivo Narrow;
-    font-size:23px
+    font-size:20px
   }
 
   
@@ -40,11 +41,16 @@
     background-color: #f7e19a;
 }
 
+.bgguiding{
+    background-color: #c6f5ef;
+
+}
 .sections{
     font-family: 'Finger Paint';
     padding-top: 5px;
+    padding-bottom: 10px;
     width: 100%;
-    font-size: 21px; 
+    font-size: 24px; 
     text-align: center;
     font-weight: bold;
 }

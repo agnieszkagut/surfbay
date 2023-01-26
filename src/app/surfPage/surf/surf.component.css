@@ -20,19 +20,18 @@
     text-align: center;
     padding: 0px 0px 0px 0px;
     font-family: Archivo Narrow;
-    font-size:25px
+    font-size:20px
 
   }
   .descriptionsec{
     text-align: center;
     padding: 0px 0px 0px 0px;
     font-family: Archivo Narrow;
-    font-size:23px
+    font-size:20px
   }
 
   
   .bg{
-    background-color: #95eaf0;
 
 }
 
@@ -40,11 +39,16 @@
     background-color: #f7e19a;
 }
 
+.bgguiding{
+    background-color: #c6f5ef;
+
+}
+
 .sections{
     font-family: 'Finger Paint';
     padding-top: 5px;
     width: 100%;
-    font-size: 21px; 
+    font-size: 25px; 
     text-align: center;
     font-weight: bold;
 }
