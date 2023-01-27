@@ -7,17 +7,17 @@
 
 }
 
-.couches{
+.coaches{
     padding-top: 20px;
     padding-bottom: 0;
 
 }
 
-.couchesimg{
+.coachesimg{
     display: flex;
     justify-content: center;
 }
-.couchesimg img{
+.coachesimg img{
     width: 100%;
     height: 750px;
     object-fit: cover;
@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-.couches p {
+.coaches p {
     font-size: x-large; 
     text-align: center;
     font-weight: bold;

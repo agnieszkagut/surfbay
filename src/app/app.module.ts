@@ -17,7 +17,7 @@ import { RegularHeaderComponent } from './componentSurf/regularHeader/regular-he
 const routes: Routes = [
   {path: '',component:HomeComponent},
   {path: 'about',component:AboutComponent},
-  {path: 'surfpackages',component:SurfComponent},
+  {path: 'surfactivities',component:SurfComponent},
   {path: 'prices',component:PricesComponent},
   {path: 'contact',component:ContactComponent}
 ];

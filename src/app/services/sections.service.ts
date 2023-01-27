@@ -19,7 +19,7 @@ export class SectionsService {
       id:2,
       sectionName:"surf guiding",
       sectionDesc:"We will show you the best spots to surf depends on weather in Taghazout, Tamraght, Agadir and more",
-      sectionImg:"./assets/img/222.jpg"
+      sectionImg:"./assets/img/2222.png"
     },
     {
       id:3,
@@ -38,20 +38,41 @@ export class SectionsService {
     aboutSections=[
       {
         id:1,
-        sectionName:"experience",
-        sectionDesc:"As couches we have experienced surf instruction for years. You will be provided with top-notch instruction, equipment, and accommodations",
-        sectionImg:"./assets/img/aboutus4.jpg"
-      },      {
-        id:2,
         sectionName:"solid training and feedback",
-        sectionDesc:"Couches will offer tailored lessons to help you make the most of your time. You will get expert guidance and feedbacks",
+        sectionDesc:"We will offer tailored lessons to help you make the most of your time. You will get expert guidance and feedbacks",
         sectionImg:"./assets/img/aboutus.jpg"
-      },
+      },      
+      {
+        id:2,
+        sectionName:"experience",
+        sectionDesc:"As coaches we have experienced surf instruction for years. You will be provided with top-notch instruction, equipment, and accommodations",
+        sectionImg:"./assets/img/aboutus4.jpg"
+      },      
       {
         id:3,
         sectionName:"making it fun",
         sectionDesc:"We represent patient and passionate about sharing the joys of surfing with others while immersing you in the beautiful moroccan coastal waves and the surf culture",
         sectionImg:"./assets/img/aboutus2.png"
+      }
+    ]
+  
+    houseSections=[
+      {
+        id:1,
+        sectionImg:"./assets/img/house.jpg"
+      },      {
+        id:2,
+        sectionImg:"./assets/img/house2.jpg"
+      }
+    ]
+
+    activitiesSections=[
+      {
+        id:1,
+        sectionImg:"./assets/img/activities.jpg"
+      },      {
+        id:2,
+        sectionImg:"./assets/img/activities2.jpg"
       }
     ]
   

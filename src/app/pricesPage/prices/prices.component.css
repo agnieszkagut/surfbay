@@ -54,3 +54,18 @@
     text-align: center;
     font-weight: bold;
 }
+
+.sections{
+    background-color:white
+}
+
+.sectionbox{
+    padding: 10px 5px;
+
+}
+
+.sectionbox img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
