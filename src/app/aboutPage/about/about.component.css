@@ -34,7 +34,7 @@
 
 .sectionbox p{
     width: 100%;
-    padding-left: 18px;
+    padding-left: 0px;
     font-family: Archivo Narrow;  
     font-size: larger; 
     text-align: center;
@@ -44,7 +44,6 @@
 .sectionbox h1{
     width: 100%;
     padding-top: 30px;
-    padding-left: 18px;
     font-size:x-large;  
     font-weight: bold;
     text-align: center;
