@@ -17,37 +17,37 @@
   }
 
   h1{
-   color: #3D4A4F;
+   color: #6d6d6d;
    font-size: 20px;
 
   }
 
   p{
-   color: #3D4A4F;
+   color: #6d6d6d;
    font-size: 19px;
 
   }
 
   a{
-   color:#3D4A4F;
+   color:#6d6d6d;
    text-decoration: none;
    padding: 0px 20px;
-   font-size: 20px;
+   font-size: 18px;
   }
 
   i{
-   color:#3D4A4F;
+   color:#6d6d6d;
    padding: 0px 0px;
    font-size:large;
   }
 
   a:hover{
-   color: var(--secondary-color);
+   color: #b1b1b1;
   }
 
   .desc{
    font-family: Archivo Narrow;
-   font-size: 20px; 
+   font-size: 18px; 
   }
 
   .left{
@@ -58,4 +58,8 @@
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+  }
+
+  .divpadding{
+   padding-top: 28px;
   }

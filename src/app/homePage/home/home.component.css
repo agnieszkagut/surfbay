@@ -1,52 +1,76 @@
 
-.wholediv{
-
-}
-
-
-.banner h1{
-
-}
-
-.sections{
-    background-color:white
-}
-
 .sectionbox{
     padding: 10px 5px;
-
+    color: rgb(112, 112, 112);
 }
 
 .sectionbox img {
     width: 100%;
-    height: 260px;
-
+    height: 340px;
     object-fit: cover;
-
 }
 
 .sectionbox p{
     width: 100%;
     font-family: Archivo Narrow;  
-    font-size: larger; 
+    font-size: 18px; 
     text-align: center;
 }
 
 .sectionbox h1{
     width: 100%;
     padding-top: 20px;
-    font-size:x-large;  
-    font-weight: bold;
+    font-size:20px;  
     text-align: center
 }
+
 .bg{
-    background-color: #f7e19a;
+    background-color: #f8f6f6;
 }
 
 .description{
     text-align: center;
-    padding: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     font-family: Archivo Narrow;
-    font-size:23px
+    font-size:19px;
+    color: rgb(100, 100, 100);
+  }
 
+  /*button*/
+.buttondet{
+  font-family: Archivo Narrow;
+  text-align: center;
+  font-size: 17px;
+}
+a:link, a:visited {
+  background-color: #a9d7df;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(226, 226, 226);
+}
+
+/* Container holding the image and the text */
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(250,238,213,0.76234243697479) 100%, rgba(45,253,251,0) 100%),url('../../../assets/img/banner.png');
+    height:90%;
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+  }
+  .text {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;   
+    
   }

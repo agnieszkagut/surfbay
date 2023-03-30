@@ -1,7 +1,9 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { RouterLink, RouterModule } from '@angular/router';
+import { RegularHeaderComponent } from 'src/app/regularHeader/regular-header/regular-header.component';
 
-import { RegularHeaderComponent } from 'src/app/componentSurf/regularHeader/regular-header/regular-header.component';
+
 import { SectionsService } from 'src/app/services/sections.service';
 
 @Component({
@@ -9,7 +11,7 @@ import { SectionsService } from 'src/app/services/sections.service';
   standalone: true,
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
-  imports: [RegularHeaderComponent, NgFor]
+  imports: [NgFor, RouterModule, RouterLink]
 })
 export class AboutComponent implements OnInit {
   

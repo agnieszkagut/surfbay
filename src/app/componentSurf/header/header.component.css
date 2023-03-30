@@ -23,42 +23,81 @@
 
 .logo{
   background-image: url('../../../assets/img/logo3.png');
-  height:210px;
-  background-position: center ;
+  height:230px;
+  background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
-  margin-left: 10px;
 }
 
 .banner{
-  background-image: linear-gradient(90deg, rgba(58,99,180,0.6755077030812324) 0%, rgba(253,160,29,0.5270483193277311) 61%, rgba(69,232,252,0.6811099439775911) 100%), url('../../../assets/img/coaches.jpg');
-  height:790px;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.42947601403842783) 0%, rgba(255,255,255,0) 8%, rgba(255,255,255,0) 89%, rgba(248, 240, 231, 0) 100%), linear-gradient(90deg, rgba(58,99,180,0.165703781512605) 0%, rgba(253, 160, 29, 0.171) 61%, rgba(69,232,252,0.16290266106442575) 100%) , url('../../../assets/img/collage5.png');
+  height:879px;
   background-position: center ;
   background-size:cover;
   background-repeat: no-repeat;
-
+  margin-top: 10px;
 }
 
+/*TITLES*/
 .surfing{
-  top: 40%;
+  top: 38%;
   left: 14%;
   position:absolute;
-  color: #5cc8fa;
+  color: #33def5;
   font-size: 70px;
 }
 .adventures{
-  top: 40%;
+  top: 38%;
   right:11%;
   position: absolute;
-  color: #f3af73;
+  color: #f5a864;
   font-size: 50px
 }
 
 .barfont{
   font-family: Archivo Narrow;
-  font-size:21px;
-  font-weight: bold;
+  font-size:17px;
+  padding-top: 20px;
 }
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgba(0, 0, 0, 0.58);
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #4d4d4d;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+  a:visited { 
+    color: rgb(167, 167, 167); 
+    text-decoration: none; }
+
 
 .navbar-expand-lg .navbar-nav .nav-link {
 color:var(--secondary-color);
@@ -71,13 +110,13 @@ color:var(--secondary-color);
   }
 
   a{
-    color: #242527;
+    color: rgb(167, 167, 167);
     text-decoration: none
 
   }
 
   a:hover{
-    color: #5cc8fa
+    color: #4d4d4d
   }
 
   .logo {

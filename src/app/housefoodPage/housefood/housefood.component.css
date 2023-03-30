@@ -1,0 +1,143 @@
+/*HEADER*/
+.banner{
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.993) 0%, rgba(34, 192, 195, 0) 45%, rgba(34, 192, 195, 0) 120%), url('../../../assets/img/houseHeader.jpg');
+    height:450px;
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+  }
+  
+  .text {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(223, 223, 223);
+    font-size: 36px;   
+    text-decoration-style: wavy;
+  }
+  
+  .barfont{
+      font-family: Archivo Narrow;
+      font-size:17px;
+      padding-top: 20px;
+      background-size: auto;
+      }
+   
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgba(0, 0, 0, 0.58);
+    text-decoration: none;
+    display: block;
+    font-size: 16;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #4d4d4d;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  
+    .header a:visited { 
+      color: rgb(167, 167, 167); 
+      text-decoration: none; }
+  
+    .navbar-expand-lg .navbar-nav .nav-link {
+      color: #19d6e4;
+    
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link .active-link{
+      color: #19d6e4
+      
+      }
+    
+      .header a{
+        color: rgb(167, 167, 167);
+        text-decoration: none
+    
+      }
+    
+      .header a:hover{
+        color: #4d4d4d;
+      }
+    
+      .logohover:hover{
+        color: black;
+      }
+
+ /*HOUSE FOOD CONTENT*/
+  .descriptionsec{
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        font-family: Archivo Narrow;
+        font-size:19px;
+        color: rgb(100, 100, 100)
+      }
+  .sections{
+        font-family: 'Finger Paint';
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+        text-align: center;
+        color: rgb(100, 100, 100);
+        font-size: 20px
+    }
+    .sectionbox{
+      padding: 10px 5px;
+  
+  }
+  .sectionbox img {
+      width: 100%;
+      height: 330px;
+      object-fit: cover;
+  }
+  
+  .description{
+      text-align: center;
+      padding: 0px 0px 0px 0px;
+      font-family: Archivo Narrow;
+      font-size:19px;
+      color: rgb(100, 100, 100);
+    }
+  
+    /*button*/
+  .buttondet{
+    font-family: Archivo Narrow;
+    text-align: center;
+    font-size: 20px;
+    }
+    
+    .buttondet a:link, a:visited {
+    background-color: #69d1e4;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    
+    .buttondet a:hover, a:active {
+    background-color: rgb(226, 226, 226);
+    }

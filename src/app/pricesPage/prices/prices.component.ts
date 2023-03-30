@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { RegularHeaderComponent } from 'src/app/componentSurf/regularHeader/regular-header/regular-header.component';
+import { RegularHeaderComponent } from 'src/app/regularHeader/regular-header/regular-header.component';
 import { SectionsService } from 'src/app/services/sections.service';
 
 @Component({

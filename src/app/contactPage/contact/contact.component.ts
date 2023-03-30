@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { RegularHeaderComponent } from 'src/app/componentSurf/regularHeader/regular-header/regular-header.component';
+import { RegularHeaderComponent } from 'src/app/regularHeader/regular-header/regular-header.component';
 
 @Component({
   selector: 'app-contact',
@@ -9,6 +9,8 @@ import { RegularHeaderComponent } from 'src/app/componentSurf/regularHeader/regu
   styleUrls: ['./contact.component.css'],
   imports: [RegularHeaderComponent, RouterModule]
 })
-export class ContactComponent {
-
+export class ContactComponent implements OnInit {
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

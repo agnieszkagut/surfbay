@@ -13,25 +13,33 @@ export class SectionsService {
       id:1,
       sectionName:"surfing lessons",
       sectionDesc:"We will teach you surfing whether you are beginner or more experienced",
-      sectionImg:"./assets/img/11.jpg"
+      sectionImg:"./assets/img/11.jpg",
+      sectionLink:"/surfactivities",
+      sectionButton:"Read more about surfing lessons"
     },
     {
       id:2,
       sectionName:"surf guiding",
       sectionDesc:"We will show you the best spots to surf depends on weather in Taghazout, Tamraght, Agadir and more",
-      sectionImg:"./assets/img/2222.png"
+      sectionImg:"./assets/img/2222.png",
+      sectionLink:"/surfactivities",
+      sectionButton:"Read more about surf guiding"
     },
     {
       id:3,
       sectionName:"sandboarding",
       sectionDesc:"Another fun way to use a surfboard is boarding on a desert and we are here to show you how",
-      sectionImg:"./assets/img/333.png"
+      sectionImg:"./assets/img/333.png",
+      sectionLink:"/surfactivities",
+      sectionButton:"Read more about sandboarding"
     },
     {
       id:4,
       sectionName:"more activities",
       sectionDesc:"With us you don't miss local attractions like Paradise Valley with beautiful natural pools or riding on moroccan camel",
-      sectionImg:"./assets/img/44.jpg"
+      sectionImg:"./assets/img/44.jpg",
+      sectionLink:"/surfactivities",
+      sectionButton:"Read more about other activities"
     }
     ];
 
@@ -45,7 +53,7 @@ export class SectionsService {
       {
         id:2,
         sectionName:"experience",
-        sectionDesc:"As coaches we have experienced surf instruction for years. You will be provided with top-notch instruction, equipment, and accommodations",
+        sectionDesc:"As coaches we have experienced surf instruction for years. You will be provided with top-notch instruction, equipment, accommodation and best experience",
         sectionImg:"./assets/img/aboutus4.jpg"
       },      
       {
